@@ -27,29 +27,32 @@
     <script type="text/babel">
 
 
+        let users = [
+            {name:"张三",age:20},
+            {name:"王五",age:29},
+            {name:"李四",age:26}
+        ]
 
-        //props readonly pure function
-        function Hello(props){
-            console.log(props)
-            props.title = "hello from inner"
-            return "hello"
+        let User=(props)=>{
+            return <li><h1>{props.name}</h1></li>
         }
 
-        class World extends React.Component {
-
+        class UserList extends React.Component {
             render() {
-                let {title,disc} = this.props
-                console.log(this.props)
                 return (
-                    <div>
-                        <h1>{title}</h1>
-                        <p>{disc}</p>
-                    </div>
+                    <ul>
+                        {
+                            users.map((user,index)=>{
+                                return <User key={index} name={user.name}/>
+                            })
+                        }
+                    </ul>
                 );
             }
         }
 
-        ReactDOM.render(<World title={"测试类组件中的props"} disc={"wrold"}/>,document.querySelector("#app"))
+
+        ReactDOM.render(<UserList/>,document.querySelector("#app"))
 
 
     </script>

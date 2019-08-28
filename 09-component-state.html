@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1904-react课程:徐禮文老师课程</title>
+</head>
+
+<body>
+
+    <div id="app"></div>
+
+
+    <!--vue core+compiler -->
+    <script src="bower_components/vue/dist/vue.js"></script>
+    <!--react core library-->
+    <script src="bower_components/react/react.development.js"></script>
+    <!--react dom compiler viruatl dom->real dom -->
+    <script src="bower_components/react/react-dom.development.js"></script>
+    <!--browser jit es6 react -->
+    <script src="bower_components/react/babel-browser.min.js"></script>
+
+
+
+    <script type="text/babel">
+
+        //组件的输出 props, state ：初始化组件的视图的数据结构
+        class Hello extends React.Component {
+            constructor(props) {
+                super(props);
+                console.log(this.state) // vue data
+
+                //初始化页面上需要的数据结构
+                //state 状态属性： 状态发生变化，视图重新render
+                this.state={
+                    msg:"hello from state",
+                    desc:"初始化页面上需要的数据结构"
+                }
+            }
+
+            render() {
+                console.log("render...")
+                // this.state.msg = "hello2" // re-render
+                //不能在render中使用setState,setstate -> render..
+                // this.setState({
+                //     msg:"set state hello2" //render recall
+                // })
+                console.log(this.state.msg)
+                return (
+                    <div>
+                       <h1>{this.state.msg}</h1>
+                        <p>{this.state.desc}</p>
+                    </div>
+                );
+            }
+
+        }
+
+        ReactDOM.render(<Hello title={"hello world"}/>,document.querySelector("#app"))
+    </script>
+
+</body>
+
+</html>

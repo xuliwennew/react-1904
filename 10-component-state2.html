@@ -26,32 +26,41 @@
 
     <script type="text/babel">
 
+        class Counter extends React.Component{
+            constructor(props) {
+                super(props);
+                //当state中的值发生变化，组件就会重新render
+                this.state = {
+                    num:0
+                }
+            }
 
+            update(){
+                //修改state
 
-        //props readonly pure function
-        function Hello(props){
-            console.log(props)
-            props.title = "hello from inner"
-            return "hello"
-        }
-
-        class World extends React.Component {
+                // this.state.num = 1 //render
+                let {num} = this.state;
+                this.state.num = ++num;
+                this.forceUpdate()
+                // this.setState({
+                //     num:++num
+                // })
+                // console.log(this.state.num)
+            }
 
             render() {
-                let {title,disc} = this.props
-                console.log(this.props)
+                console.log("render....")
                 return (
                     <div>
-                        <h1>{title}</h1>
-                        <p>{disc}</p>
+                        <h1>{this.state.num}</h1>
+                        <button onClick={this.update.bind(this)}>+</button>
                     </div>
                 );
             }
+
         }
 
-        ReactDOM.render(<World title={"测试类组件中的props"} disc={"wrold"}/>,document.querySelector("#app"))
-
-
+        ReactDOM.render(<Counter/>,document.querySelector("#app"))
     </script>
 
 </body>

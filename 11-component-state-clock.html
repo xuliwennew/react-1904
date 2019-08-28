@@ -26,32 +26,38 @@
 
     <script type="text/babel">
 
+        class Clock extends React.Component{
+            constructor(props) {
+                super(props);
+                this.state = {
+                    time:new Date().toLocaleTimeString()
+                }
+            }
 
-
-        //props readonly pure function
-        function Hello(props){
-            console.log(props)
-            props.title = "hello from inner"
-            return "hello"
-        }
-
-        class World extends React.Component {
+            //第一次mounted成功
+            componentDidMount(){
+               setInterval(()=>{
+                   this.setState({
+                       time:new Date().toLocaleTimeString()
+                   })
+               },1000)
+            }
 
             render() {
-                let {title,disc} = this.props
-                console.log(this.props)
                 return (
                     <div>
-                        <h1>{title}</h1>
-                        <p>{disc}</p>
+                        <h1>当前的时间是:{this.state.time}</h1>
                     </div>
                 );
             }
+
         }
 
-        ReactDOM.render(<World title={"测试类组件中的props"} disc={"wrold"}/>,document.querySelector("#app"))
+        ReactDOM.render(<Clock/>,document.querySelector("#app"))
 
-
+        // setInterval(()=>{
+        //     ReactDOM.render(<Clock time={new Date().toLocaleTimeString()}/>,document.querySelector("#app"))
+        // },1000)
     </script>
 
 </body>
