@@ -1,54 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>react-helloworld</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>react-helloworld</title>
 </head>
+
 <body>
-    
-    <div id="app"></div>
 
-    <div id="vue"></div>
+  <div id="app"></div>
+  <div id="vue"></div>
+
+  <!--vue core+compiler -->
+  <script src="bower_components/vue/dist/vue.js"></script>
+  <!--react core library-->
+  <script src="bower_components/react/react.development.js"></script>
+  <!--react dom compiler viruatl dom->real dom -->
+  <script src="bower_components/react/react-dom.development.js"></script>
+  <!--browser jit es6 react -->
+  <script src="bower_components/react/babel-browser.min.js"></script>
+
+  <script>
+
+    let hello = {
+      template: "<h1>hello vue</h1>"
+    }
 
 
-    <!--vue core+compiler -->
-    <script src="bower_components/vue/dist/vue.js"></script>
-
-    <!--react core library-->
-    <script src="bower_components/react/react.development.js"></script>
-    <!--react dom compiler viruatl dom->real dom -->
-    <script src="bower_components/react/react-dom.development.js"></script>
-    <!--browser jit es6 react -->
-    <script src="bower_components/react/babel-browser.min.js"></script>
-
-    <script>
-
-      let hello = {
-        template:"<h1>hello vue</h1>"
+    var vm = new Vue({
+      el: "#vue",
+      render(creactElement) {
+        return creactElement("h1", {}, "hello vue2222")
       }
+    })
+
+    //创建一个virtual dom == <div><h1>hello world</h1></div>
+    let vnodes = vm.$createElement("div", {}, [
+      vm.$createElement("h1", {}, "hello world!")
+    ])
 
 
+    console.log(vnodes)
+  </script>
 
-      var vm= new Vue({
-         el:"#vue",
-         render(creactElement){
-            return creactElement("h1",{},"hello vue2222")
-         }
-       })
+  <script type="text/babel">
 
-       //创建一个virtual dom == <div><h1>hello world</h1></div>
-       let vnodes = vm.$createElement("div",{},[
-         vm.$createElement("h1",{},"hello world!")
-       ])
-
-
-      console.log(vnodes)
-    </script>
-    
-    <script type="text/babel">
-      
       //es6 template string 
       let hello =`
       <div>
@@ -68,6 +66,7 @@
       ReactDOM.render(world,document.querySelector("#app"))
     
     </script>
- 
+
 </body>
+
 </html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1904-react课程:徐禮文老师课程</title>
+
+  <style>
+    .title {
+        color:red
+    }
+  </style>
+</head>
+
+<body>
+
+    <div id="app"></div>
+
+
+    <!--vue core+compiler -->
+    <script src="bower_components/vue/dist/vue.js"></script>
+    <!--react core library-->
+    <script src="bower_components/react/react.development.js"></script>
+    <!--react dom compiler viruatl dom->real dom -->
+    <script src="bower_components/react/react-dom.development.js"></script>
+    <!--browser jit es6 react -->
+    <script src="bower_components/react/babel-browser.min.js"></script>
+
+
+
+    <script type="text/babel">
+
+        //数据模型 
+        let data = {
+            name:"王小二",
+            intro:"very good!"
+        }
+
+        // 创建jsx的视图
+        let userDiv = <div className="title">
+           <h1>{data.name}</h1>
+           <p>{data.intro}</p>
+        </div>
+
+        // v-if data  logic business + view
+        function loginView(){
+            if(localStorage.getItem("xx")){
+                return <div>
+                        <h1 style={{color:"red"}}>登录成功！</h1> {userDiv}
+                </div>
+
+
+            }else {
+                return <h1 style={{color:"blue"}}>请先登录！</h1>
+            }
+        }
+
+        const element = {
+            type: 'h1',
+            props: {
+                className: 'greeting',
+                children: 'Hello, world!'
+            }
+           };
+
+        ReactDOM.render(loginView(),document.querySelector("#app"))
+
+    </script>
+
+</body>
+
+</html>

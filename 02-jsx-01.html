@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1904-react课程:徐禮文老师课程</title>
+</head>
+
+<body>
+
+    <div id="app"></div>
+
+
+    <!--vue core+compiler -->
+    <script src="bower_components/vue/dist/vue.js"></script>
+    <!--react core library-->
+    <script src="bower_components/react/react.development.js"></script>
+    <!--react dom compiler viruatl dom->real dom -->
+    <script src="bower_components/react/react-dom.development.js"></script>
+    <!--browser jit es6 react -->
+    <script src="bower_components/react/babel-browser.min.js"></script>
+
+
+
+    <script type="text/babel">
+
+        // document.createElement("")
+        //vue $createElement 创建vnode对象 shadow dom -> real dom 
+        //react React.creatElment
+
+        //通过直接创建vnode来生成view div->h1->span
+        let strs = React.createElement("div",{},[
+            React.createElement("h1",{},[
+                React.createElement("span",{},"hello react vnode")
+            ])
+        ])
+
+
+        //react 创建了一种高效编写vnode的一种语法 jsx 
+        // 好处，可以在js中直接使用类标签的写法来写vnode
+        let divs = <div>
+            <h1><span>hello template</span></h1>
+        </div>
+
+        let hi = React.createElement("div",{},"")
+
+        console.log(divs)
+        //
+        ReactDOM.render(strs,document.querySelector("#app"))
+
+        //jquery all in html dom css logic data 
+        //mvc extjs model view controller 
+        //angular kockoutjs -> mvvm 
+        //min angular vue + react  
+        //react all in (module)js
+
+    </script>
+
+</body>
+
+</html>

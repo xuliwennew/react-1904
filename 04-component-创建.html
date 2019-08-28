@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1904-react课程:徐禮文老师课程</title>
+</head>
+
+<body>
+
+    <div id="app"></div>
+
+
+    <!--vue core+compiler -->
+    <script src="bower_components/vue/dist/vue.js"></script>
+    <!--react core library-->
+    <script src="bower_components/react/react.development.js"></script>
+    <!--react dom compiler viruatl dom->real dom -->
+    <script src="bower_components/react/react-dom.development.js"></script>
+    <!--browser jit es6 react -->
+    <script src="bower_components/react/babel-browser.min.js"></script>
+
+
+
+    <script type="text/babel">
+
+        //组件是引用 类型 ,函数名必须首字母大字
+        //函数的返回值必须是一些合法的视图 string,react element,array
+        function Welcome(){
+            console.log("xx")
+            return [
+                <h1 key={1}>hello</h1>,
+                <h1 key="2">aaa</h1>,
+            ]
+        }
+
+        class Hello extends React.Component{
+           render(){
+               return <h1>hello component</h1>
+           }
+        }
+
+        let Hi = ()=>{
+            return <h1>hi component</h1>
+        }
+
+        //使用单页面组件 .jsx /.js 
+
+        //<Welcome/> new Welcome()
+        ReactDOM.render(<Hi/>,document.querySelector("#app"))
+
+
+    </script>
+
+</body>
+
+</html>
