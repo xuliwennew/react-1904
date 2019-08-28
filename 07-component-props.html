@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1904-react课程:徐禮文老师课程</title>
+</head>
+
+<body>
+
+    <div id="app"></div>
+
+
+    <!--vue core+compiler -->
+    <script src="bower_components/vue/dist/vue.js"></script>
+    <!--react core library-->
+    <script src="bower_components/react/react.development.js"></script>
+    <!--react dom compiler viruatl dom->real dom -->
+    <script src="bower_components/react/react-dom.development.js"></script>
+    <!--browser jit es6 react -->
+    <script src="bower_components/react/babel-browser.min.js"></script>
+
+
+
+    <script type="text/babel">
+
+
+
+        //props readonly pure function
+        function Hello(props){
+            console.log(props)
+            props.title = "hello from inner"
+            return "hello"
+        }
+
+        ReactDOM.render(<Hello title={"hello"} disc={"wrold"}/>,document.querySelector("#app"))
+
+
+    </script>
+
+</body>
+
+</html>

@@ -4,15 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --config ./build/webpack.config.js -w --progress"
+    "react": "webpack --config ./build/webpack.react.config.js -w --progress",
+    "vue": "webpack --config ./build/webpack.config.js -w --progress"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
     "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
     "@vue/babel-preset-jsx": "^1.1.0",
     "babel-loader": "^8.0.6",
