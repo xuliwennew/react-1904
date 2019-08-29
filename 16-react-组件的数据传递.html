@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1904-react课程:徐禮文老师课程</title>
+</head>
+
+<body>
+
+    <div id="app"></div>
+
+
+    <!--vue core+compiler -->
+    <script src="bower_components/vue/dist/vue.js"></script>
+    <!--react core library-->
+    <script src="bower_components/react/react.development.js"></script>
+    <!--react dom compiler viruatl dom->real dom -->
+    <script src="bower_components/react/react-dom.development.js"></script>
+    <!--browser jit es6 react -->
+    <script src="bower_components/react/babel-browser.min.js"></script>
+
+
+
+    <script type="text/babel">
+
+        class News extends React.Component {
+            constructor(props) {
+                super(props);
+
+            }
+
+            delNews(){
+                let {idx,del} = this.props;
+                del(idx)
+            }
+
+
+            render() {
+                 let {item,idx} = this.props;
+                return <li><h1>{item.title}</h1> <a onClick={this.delNews.bind(this)}>删除</a></li>
+            }
+        }
+
+        class NewsList extends React.Component{
+            constructor(props) {
+                super(props);
+                this.state= {
+                    newsArr:[
+                        {title:"新闻一"},
+                        {title:"新闻二"},
+                    ]
+                }
+            }
+
+            delNewsByid(id){
+                console.log(id)
+                //state render setState ->render
+                this.state.newsArr.splice(id,1)
+                this.setState({
+                    newsArr:this.state.newsArr
+                })
+            }
+
+            render() {
+                return (
+                    <div>
+                        <h1>新闻列表</h1>
+                        <ul>
+                            {
+                                this.state.newsArr.map((item,key)=>{
+                                    return <News del={this.delNewsByid.bind(this)} item={item} idx={key} key={key} />
+                                })
+                            }
+                        </ul>
+                    </div>
+                );
+            }
+
+        }
+
+        ReactDOM.render(<NewsList/>,document.querySelector("#app"))
+    </script>
+
+</body>
+
+</html>

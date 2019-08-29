@@ -10,11 +10,11 @@
  module.exports = {
      mode:"development",
      entry:{
-         app:path.resolve(__dirname,"../","single-page/main.js")
+         app:path.resolve(__dirname,"../","context-demo/main.js")
      },
      output:{
          filename:"[name].bundle.js",
-         path:path.resolve(__dirname,"../","single-page")
+         path:path.resolve(__dirname,"../","context-demo")
      },
      resolve:{
          extensions:[".css",".js",".jsx"]
