@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1904-react课程:徐禮文老师课程</title>
+</head>
+
+<body>
+
+    <div id="app"></div>
+
+
+    <!--vue core+compiler -->
+    <script src="bower_components/vue/dist/vue.js"></script>
+    <!--react core library-->
+    <script src="bower_components/react/react.development.js"></script>
+    <!--react dom compiler viruatl dom->real dom -->
+    <script src="bower_components/react/react-dom.development.js"></script>
+    <!--browser jit es6 react -->
+    <script src="bower_components/react/babel-browser.min.js"></script>
+
+
+
+    <script type="text/babel">
+
+        class Counter extends React.PureComponent{
+
+            constructor(props) {
+                super(props);
+                this.state = {
+                    num:0
+                }
+                console.log("#1 constructor")
+            }
+
+            update(){
+                let {num} = this.state;
+                this.setState({
+                    num:1
+                })
+            }
+
+            unmount(){
+                //mount
+                // ReactDOM.render 装载
+                // ReactDOM.
+                ReactDOM.unmountComponentAtNode(document.querySelector("#app"))
+            }
+
+            componentWillMount(){
+                console.log("#2 componentWillMount")
+            }
+
+            // virtual dom -> diff(ovnode,nvodo)->render
+            render() {
+                console.log("#3 render")
+                return (
+                    <div>
+                        <h1>{this.props.title}:{this.state.num}</h1>
+                        <button onClick={this.update.bind(this)}>+</button>
+                        |
+                        <button onClick={this.unmount.bind(this)}>unmount</button>
+                    </div>
+                );
+            }
+
+            componentDidMount(){
+                console.log("#4 componentDidMount")
+            }
+
+            componentWillReceiveProps(){
+                console.log("#9 componentWillReceiveProps")
+            }
+
+            // shouldComponentUpdate(nextProps,nextState){
+            //     console.log("#5 shouldComponentUpdate")
+            //     console.log(nextProps)
+            //     console.log(nextState)
+            //     console.log(this.state)
+            //     if(nextState.num == this.state.num){
+            //         return false
+            //     }else {
+            //         return true
+            //     }
+            //
+            // }
+
+            componentWillUpdate(){
+                console.log("#6 componentWillUpdate")
+            }
+
+            componentDidUpdate(){
+                console.log("#7 componentDidUpdate")
+            }
+
+            componentWillUnmount(){
+                console.log("#8 componentWillUnmount")
+            }
+
+
+        }
+
+        class CounterContainer extends React.Component {
+
+            constructor(props) {
+                super(props);
+                this.state = {
+                    title:"一幅图"
+                }
+            }
+
+            updateTitle(){
+                this.setState({
+                    title:"新的一幅图"
+                })
+            }
+
+
+            render() {
+                return (
+                    <div>
+                        <Counter title={this.state.title}/>
+                        <button onClick={this.updateTitle.bind(this)}>更新标题</button>
+                    </div>
+                );
+            }
+        }
+
+        ReactDOM.render(<CounterContainer/>,document.querySelector("#app"))
+    </script>
+
+</body>
+
+</html>

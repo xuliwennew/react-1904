@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1904-react课程:徐禮文老师课程</title>
+
+    <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.css">
+    <style>
+        .swiper-container {
+            width:100%;
+            height:300px;
+        }
+
+        .box1 {
+            width:100%;
+            height:300px;
+            background-color: red;
+        }
+        .box2 {
+            width:100%;
+            height:300px;
+            background-color: blue;
+        }
+        .box3 {
+            width:100%;
+            height:300px;
+            background-color: yellow;
+        }
+        .box4{
+            width:100%;
+            height:300px;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app">
+
+    </div>
+
+
+
+    <!--vue core+compiler -->
+    <script src="bower_components/swiper/dist/js/swiper.js"></script>
+    <!--react core library-->
+    <script src="bower_components/react/react.development.js"></script>
+    <!--react dom compiler viruatl dom->real dom -->
+    <script src="bower_components/react/react-dom.development.js"></script>
+    <!--browser jit es6 react -->
+    <script src="bower_components/react/babel-browser.min.js"></script>
+
+
+
+    <script type="text/babel">
+
+        class ReactSwiper extends React.Component {
+            constructor(props) {
+                super(props);
+
+            }
+
+            render() {
+                return (
+                    //var swiper = React.createElement({})
+                    <div ref="swiper"  className="swiper-container">
+                        <div className="swiper-wrapper">
+                            {
+                               this.props.children
+                            }
+                        </div>
+                        <div className="swiper-pagination"></div>
+                    </div>
+                );
+            }
+
+            componentDidMount(){
+                console.log(this.refs)
+              new Swiper(this.refs.swiper,this.props.options)
+            }
+
+        }
+
+        function ReactSwiperItem(props){
+            console.log(props)
+            return  <div className={`swiper-slide box${props.title}`} >1</div>
+        }
+
+        let data = [
+            1,
+            2,
+            3
+        ]
+
+        let divs = <ul>
+            <ReactSwiper options={{
+                effect:"cube",
+                direction:"vertical",
+                pagination:{
+                    el:".swiper-pagination"
+                }
+            }}>
+                {
+                    data.map((item,key)=>{
+                        return  <ReactSwiperItem title={item} key={key}/>
+                    })
+                }
+            </ReactSwiper>
+            <ReactSwiper options={{
+
+            }}>
+                <div className="swiper-slide box3">3</div>
+                <div className="swiper-slide box4">4</div>
+                <div className="swiper-slide box1">1</div>
+                <div className="swiper-slide box2">2</div>
+
+            </ReactSwiper>
+        </ul>
+        ReactDOM.render(divs,document.querySelector("#app"))
+
+    </script>
+
+</body>
+
+</html>
