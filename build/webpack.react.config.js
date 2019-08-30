@@ -10,11 +10,11 @@
  module.exports = {
      mode:"development",
      entry:{
-         app:path.resolve(__dirname,"../","context-demo/main.js")
+         app:path.resolve(__dirname,"../","react-cart/main.js")
      },
      output:{
          filename:"[name].bundle.js",
-         path:path.resolve(__dirname,"../","context-demo")
+         path:path.resolve(__dirname,"../","react-cart")
      },
      resolve:{
          extensions:[".css",".js",".jsx"]
@@ -36,6 +36,14 @@
                      "presets": ["@babel/preset-env","@babel/preset-react"],
                      "plugins":["@babel/plugin-transform-react-jsx"]
                  }
+             },
+             {
+                 test:/\.css$/,
+                 loader:"style-loader!css-loader"
+             },
+             {
+                 test:/\.(png|jpg|gif)$/,
+                 loader:"url-loader"
              }
          ]
      }
