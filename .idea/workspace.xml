@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c379db4-f2ea-4763-b4d7-dc87b340f501" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/17-react-组件的上下文.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/apis/ShopCartApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/assets/basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/assets/carts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/assets/computer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/assets/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/assets/images/icon-kin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/assets/images/icon_radio3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/assets/images/icon_radio4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/assets/images/s_goods_pitch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/assets/mcbook.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/components/carts/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/components/carts/Product.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/components/carts/ProductList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/components/carts/Shop.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/components/carts/ShopList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/components/commons/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/components/commons/ShopLoading.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/server/cart-server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-cart/views/ShopCart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router-demo/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router-demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router-demo/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router-demo/pages/NewsDetail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router-demo/pages/NewsList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router-demo/路由的笔记" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/webpack.react.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.react.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
@@ -43,37 +26,39 @@
     <session id="1845653440">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.78" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MD" value="2" />
           <entry key="css" value="1" />
-          <entry key="html" value="53" />
-          <entry key="js" value="19" />
-          <entry key="json" value="5" />
-          <entry key="jsx" value="30" />
+          <entry key="html" value="57" />
+          <entry key="js" value="24" />
+          <entry key="json" value="6" />
+          <entry key="jsx" value="36" />
           <entry key="md" value="8" />
           <entry key="txt" value="1" />
           <entry key="vue" value="8" />
+          <entry key="路由的笔记" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="53" />
-          <entry key="JSON" value="5" />
-          <entry key="JSX Harmony" value="30" />
-          <entry key="JavaScript" value="19" />
+          <entry key="HTML" value="57" />
+          <entry key="JSON" value="6" />
+          <entry key="JSX Harmony" value="36" />
+          <entry key="JavaScript" value="24" />
           <entry key="Markdown" value="10" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Vue.js" value="8" />
         </counts>
       </usages-collector>
@@ -81,9 +66,9 @@
         <counts>
           <entry key="MD" value="6" />
           <entry key="html" value="5736" />
-          <entry key="js" value="912" />
+          <entry key="js" value="1042" />
           <entry key="json" value="16" />
-          <entry key="jsx" value="3125" />
+          <entry key="jsx" value="4101" />
           <entry key="md" value="348" />
           <entry key="vue" value="158" />
         </counts>
@@ -92,8 +77,8 @@
         <counts>
           <entry key="HTML" value="5736" />
           <entry key="JSON" value="16" />
-          <entry key="JSX Harmony" value="3125" />
-          <entry key="JavaScript" value="912" />
+          <entry key="JSX Harmony" value="4101" />
+          <entry key="JavaScript" value="1042" />
           <entry key="Markdown" value="354" />
           <entry key="Vue.js" value="158" />
         </counts>
@@ -101,25 +86,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-cart/assets/demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="251" selection-end-column="10" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-cart/components/carts/ShopList.jsx">
+        <entry file="file://$PROJECT_DIR$/router-demo/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="518">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <caret line="30" column="42" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="42" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -128,85 +100,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-cart/components/carts/ProductList.jsx">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-router-dom/esm/react-router-dom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="37">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="17" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#0#70#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-cart/components/carts/Product.jsx">
+        <entry file="file://$PROJECT_DIR$/router-demo/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="481">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-cart/components/carts/Footer.jsx">
+        <entry file="file://$PROJECT_DIR$/router-demo/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/router-demo/pages/NewsList.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="35" />
+              <caret line="12" column="13" selection-start-line="8" selection-start-column="18" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-cart/assets/basic.css">
+        <entry file="file://$PROJECT_DIR$/router-demo/pages/NewsDetail.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="350">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react-cart/views/ShopCart.jsx">
+        <entry file="file://$PROJECT_DIR$/router-demo/路由的笔记">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-cart/App.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-cart/apis/ShopCartApi.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-cart/components/carts/Shop.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="751">
+              <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -218,8 +174,8 @@
       <list>
         <option value="Vue Single File Component" />
         <option value="HTML File" />
-        <option value="React Single File Component" />
         <option value="JavaScript File" />
+        <option value="React Single File Component" />
       </list>
     </option>
   </component>
@@ -263,7 +219,6 @@
         <option value="$PROJECT_DIR$/react-cart/App.jsx" />
         <option value="$PROJECT_DIR$/react-cart/main.js" />
         <option value="$PROJECT_DIR$/react-cart/index.html" />
-        <option value="$PROJECT_DIR$/build/webpack.react.config.js" />
         <option value="$PROJECT_DIR$/react-cart/server/cart-server.js" />
         <option value="$PROJECT_DIR$/react-cart/components/commons/Header.jsx" />
         <option value="$PROJECT_DIR$/react-cart/apis/ShopCartApi.js" />
@@ -273,6 +228,12 @@
         <option value="$PROJECT_DIR$/react-cart/components/carts/ProductList.jsx" />
         <option value="$PROJECT_DIR$/react-cart/components/carts/Product.jsx" />
         <option value="$PROJECT_DIR$/react-cart/views/ShopCart.jsx" />
+        <option value="$PROJECT_DIR$/router-demo/main.js" />
+        <option value="$PROJECT_DIR$/build/webpack.react.config.js" />
+        <option value="$PROJECT_DIR$/router-demo/App.jsx" />
+        <option value="$PROJECT_DIR$/router-demo/pages/NewsList.jsx" />
+        <option value="$PROJECT_DIR$/router-demo/pages/NewsDetail.jsx" />
+        <option value="$PROJECT_DIR$/router-demo/路由的笔记" />
       </list>
     </option>
   </component>
@@ -312,6 +273,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,38 +284,18 @@
             <path>
               <item name="react-1904" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-1904" type="462c0819:PsiDirectoryNode" />
-              <item name="react-cart" type="462c0819:PsiDirectoryNode" />
+              <item name="router-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-1904" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-1904" type="462c0819:PsiDirectoryNode" />
-              <item name="react-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-1904" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-1904" type="462c0819:PsiDirectoryNode" />
-              <item name="react-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-1904" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-1904" type="462c0819:PsiDirectoryNode" />
-              <item name="react-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="carts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-1904" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-1904" type="462c0819:PsiDirectoryNode" />
-              <item name="react-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="router-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,11 +311,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\cource-2019-cto\01-cource-code\02-Vue\7-Vue实战篇-饿了么项目\elm-webapp\react-1904\router-demo" />
       <recent name="F:\cource-2019-cto\01-cource-code\02-Vue\7-Vue实战篇-饿了么项目\elm-webapp\react-1904\react-cart" />
       <recent name="F:\cource-2019-cto\01-cource-code\02-Vue\7-Vue实战篇-饿了么项目\elm-webapp\react-1904\react-cart\assets" />
       <recent name="F:\cource-2019-cto\01-cource-code\02-Vue\7-Vue实战篇-饿了么项目\elm-webapp\react-1904" />
       <recent name="F:\cource-2019-cto\01-cource-code\02-Vue\7-Vue实战篇-饿了么项目\elm-webapp\react-1904\context-demo" />
-      <recent name="F:\cource-2019-cto\01-cource-code\02-Vue\7-Vue实战篇-饿了么项目\elm-webapp\react-1904\build" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -388,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.cart-server.js">
+  <component name="RunManager" selected="npm.react">
     <configuration name="cart-server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="cart-server.js" working-dir="$PROJECT_DIR$/react-cart/server">
       <method v="2" />
     </configuration>
@@ -419,8 +361,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.cart-server.js" />
         <item itemvalue="npm.react" />
+        <item itemvalue="Node.js.cart-server.js" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -439,18 +381,19 @@
       <workItem from="1566990468185" duration="5527000" />
       <workItem from="1567040062829" duration="9522000" />
       <workItem from="1567067944303" duration="6400000" />
-      <workItem from="1567126666444" duration="7210000" />
+      <workItem from="1567126666444" duration="10045000" />
+      <workItem from="1567386800975" duration="4206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40071000" />
+    <option name="totallyTimeSpent" value="47112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2497349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -477,69 +420,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-jsx-02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-jsx/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/single-page/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/single-page/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/single-page/World.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-component-创建.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-class-component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-jsx-01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-functional-component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08-component-props2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -568,17 +448,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/笔记/02-vue-jsx.MD">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="148">
             <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -714,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17-react-组件的上下文.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-cart/components/commons/ShopLoading.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
@@ -732,23 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack.react.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -756,13 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-cart/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -777,10 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
           <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="251" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,16 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-cart/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
           <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,9 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
           <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,9 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,13 +678,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/react-cart/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-react-组件的上下文.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-cart/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/react-cart/views/ShopCart.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+        <state relative-caret-position="-1184">
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-777" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-jsx-01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router-demo/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.react.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router-demo/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-router-dom/esm/react-router-dom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router-demo/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="42" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router-demo/pages/NewsList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="12" column="13" selection-start-line="8" selection-start-column="18" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router-demo/pages/NewsDetail.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router-demo/路由的笔记">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
         </state>
       </provider>
     </entry>

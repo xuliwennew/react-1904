@@ -1,0 +1,37 @@
+react-router
+redux
+
+react-router
+vue-router
+SPA
+
+vue-router
+1.npm install vue-router
+2.main.js Vue.use(VueRouter)
+3.创建一个router.js 定义路由的规则 new VueRouter()
+  path->component Routes:[{path:component}]
+4.把router.js模块注册到Vue实例上 $router路由操作 $route 路由的信息
+5.在app.vue添加一个路由的slot
+  router-view
+  router-link
+
+
+react-router spa
+2x
+3x
+4x
+react-router-dom webapp
+react-router-native  android ios
+
+react-router-dom 3步走
+三个核心组件： BrowserRouter Route Link
+1.npm install react-router-dom -S
+2.在App.jsx中创建一个路由规则，使用 BrowserRouter
+3.Route来创建路由的映射 path component
+4.使用this.props 组件的接口 props ,router params (组件的接口+组件的参数接口)
+
+
+new VueRouter() == <VueRouter/>
+
+
+服务器 apache(php) tomcat(java) iis(c#) nginx(loadbalance,proxy,web container)

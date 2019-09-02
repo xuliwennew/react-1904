@@ -10,11 +10,11 @@
  module.exports = {
      mode:"development",
      entry:{
-         app:path.resolve(__dirname,"../","react-cart/main.js")
+         app:path.resolve(__dirname,"../","router-demo/main.js")
      },
      output:{
          filename:"[name].bundle.js",
-         path:path.resolve(__dirname,"../","react-cart")
+         path:path.resolve(__dirname,"../","router-demo")
      },
      resolve:{
          extensions:[".css",".js",".jsx"]
