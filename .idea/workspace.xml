@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c379db4-f2ea-4763-b4d7-dc87b340f501" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/笔记/Redux-vuex.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9c379db4-f2ea-4763-b4d7-dc87b340f501" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -38,11 +35,11 @@
           <entry key="js" value="29" />
           <entry key="json" value="8" />
           <entry key="jsx" value="46" />
-          <entry key="md" value="9" />
+          <entry key="md" value="10" />
           <entry key="ts" value="1" />
           <entry key="txt" value="1" />
           <entry key="vue" value="8" />
-          <entry key="路由的笔记" value="2" />
+          <entry key="路由的笔记" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -52,8 +49,8 @@
           <entry key="JSON" value="8" />
           <entry key="JSX Harmony" value="46" />
           <entry key="JavaScript" value="29" />
-          <entry key="Markdown" value="11" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Markdown" value="12" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="TypeScript" value="1" />
           <entry key="Vue.js" value="8" />
         </counts>
@@ -88,74 +85,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redux-demo/App.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redux-demo/pages/Counter.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="19" selection-start-line="19" selection-end-line="57" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redux-demo/store/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/笔记/Redux-vuex.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="222">
-                <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redux-demo/main.js">
+        <entry file="file://$PROJECT_DIR$/router-demo/路由的笔记">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redux-demo/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="296">
+              <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -283,7 +217,7 @@
             <path>
               <item name="react-1904" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-1904" type="462c0819:PsiDirectoryNode" />
-              <item name="笔记" type="462c0819:PsiDirectoryNode" />
+              <item name="router-demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -379,18 +313,18 @@
       <workItem from="1567126666444" duration="10045000" />
       <workItem from="1567386800975" duration="4356000" />
       <workItem from="1567398682962" duration="2740000" />
-      <workItem from="1567405841023" duration="7917000" />
+      <workItem from="1567405841023" duration="8104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57919000" />
+    <option name="totallyTimeSpent" value="58106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24655356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24655356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -405,7 +339,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.57026714" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.57026714" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -663,13 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router-demo/路由的笔记">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/router-demo/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -772,11 +699,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/笔记/Redux-vuex.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="222">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="1321">
             <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router-demo/路由的笔记">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
