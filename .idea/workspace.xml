@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c379db4-f2ea-4763-b4d7-dc87b340f501" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/redux-demo/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-demo/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-demo/pages/Counter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redux-demo/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记/Redux-vuex.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/webpack.react.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.react.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router-demo/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/router-demo/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router-demo/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/router-demo/app.bundle.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,7 +38,7 @@
           <entry key="js" value="29" />
           <entry key="json" value="8" />
           <entry key="jsx" value="46" />
-          <entry key="md" value="8" />
+          <entry key="md" value="9" />
           <entry key="ts" value="1" />
           <entry key="txt" value="1" />
           <entry key="vue" value="8" />
@@ -61,7 +52,7 @@
           <entry key="JSON" value="8" />
           <entry key="JSX Harmony" value="46" />
           <entry key="JavaScript" value="29" />
-          <entry key="Markdown" value="10" />
+          <entry key="Markdown" value="11" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="TypeScript" value="1" />
           <entry key="Vue.js" value="8" />
@@ -71,7 +62,7 @@
         <counts>
           <entry key="MD" value="6" />
           <entry key="html" value="5747" />
-          <entry key="js" value="2231" />
+          <entry key="js" value="2234" />
           <entry key="json" value="16" />
           <entry key="jsx" value="5342" />
           <entry key="md" value="348" />
@@ -83,7 +74,7 @@
           <entry key="HTML" value="5747" />
           <entry key="JSON" value="16" />
           <entry key="JSX Harmony" value="5342" />
-          <entry key="JavaScript" value="2231" />
+          <entry key="JavaScript" value="2234" />
           <entry key="Markdown" value="354" />
           <entry key="Vue.js" value="158" />
         </counts>
@@ -127,11 +118,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redux-demo/store/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+            <state relative-caret-position="212">
+              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/笔记/Redux-vuex.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="222">
+                <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -180,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vue-jsx/Hello.vue" />
         <option value="$PROJECT_DIR$/vue-jsx/App.vue" />
         <option value="$PROJECT_DIR$/04-component-创建.html" />
         <option value="$PROJECT_DIR$/笔记/02-vue-jsx.MD" />
@@ -231,6 +233,7 @@
         <option value="$PROJECT_DIR$/redux-demo/App.jsx" />
         <option value="$PROJECT_DIR$/redux-demo/pages/Counter.jsx" />
         <option value="$PROJECT_DIR$/redux-demo/store/index.js" />
+        <option value="$PROJECT_DIR$/笔记/Redux-vuex.md" />
       </list>
     </option>
   </component>
@@ -276,6 +279,11 @@
             <path>
               <item name="react-1904" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-1904" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-1904" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-1904" type="462c0819:PsiDirectoryNode" />
+              <item name="笔记" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -371,18 +379,18 @@
       <workItem from="1567126666444" duration="10045000" />
       <workItem from="1567386800975" duration="4356000" />
       <workItem from="1567398682962" duration="2740000" />
-      <workItem from="1567405841023" duration="6965000" />
+      <workItem from="1567405841023" duration="7917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56967000" />
+    <option name="totallyTimeSpent" value="57919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24655356" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24655356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -397,7 +405,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.57026714" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.57026714" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -410,13 +418,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/07-component-props.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11-component-state-clock.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-226">
@@ -764,8 +765,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/redux-demo/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="212">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记/Redux-vuex.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="222">
+            <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
