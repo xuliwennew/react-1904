@@ -9,12 +9,13 @@
 
  module.exports = {
      mode:"development",
-     entry:{
-         app:path.resolve(__dirname,"../","router-demo/main.js")
-     },
+     entry:[
+         "babel-polyfill",
+         path.resolve(__dirname,"../","redux-demo/main.js")
+     ],
      output:{
-         filename:"[name].bundle.js",
-         path:path.resolve(__dirname,"../","router-demo")
+         filename:"app.bundle.js",
+         path:path.resolve(__dirname,"../","redux-demo")
      },
      resolve:{
          extensions:[".css",".js",".jsx"]

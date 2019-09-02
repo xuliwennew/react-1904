@@ -26,7 +26,7 @@ export default class App extends Component {
         return (
              <Router>
                  <Link to={"/list"}>首页</Link> | <Link to={"/detail"}>详情</Link>
-                 <Route path={"/"} exact={true} component={NewsList}/>
+                 <Rou te path={"/"} exact={true} component={NewsList}/>
                  <Route path={"/list"} component={NewsList}/>
                  <Route path={"/detail/:id"} component={NewsDetail}/>
              </Router>
