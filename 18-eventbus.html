@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1904-react课程:徐禮文老师课程</title>
+</head>
+
+<body>
+
+    <div id="app">
+        <app></app>
+    </div>
+
+
+    <!--vue core+compiler -->
+    <script src="bower_components/vue/dist/vue.js"></script>
+
+
+    <script  >
+        (function () {
+
+            //中间的对象，
+
+            let one = {
+                methods:{
+                   send(){
+                       this.$bus.$emit("xx","hello from one ")
+                   }
+                },
+                template:"<div><h1>one component  </h1><button @click='send'>sendtoTow</button></div>"
+            }
+
+            let two = {
+                data(){
+                  return {
+                      msg:""
+                  }
+                },
+                template:"<h1>two component : 收到One信息是:{{msg}}</h1>",
+                mounted(){
+                    this.$bus.$on("xx",(data)=>{
+                        this.msg = data
+                    })
+                }
+            }
+
+            let app = {
+                components:{
+                    one,
+                    two
+                },
+                template: `<div>
+                   <one></one>
+                   <two></two>
+                </div>`
+            }
+
+            //事件的总线的对象
+            let eventBus = new Vue();
+
+            Vue.prototype.$bus = eventBus
+
+            new Vue({
+                el:"#app",
+                components:{
+                    app
+                }
+            })
+
+        })()
+    </script>
+
+</body>
+
+</html>
